@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Equipo de Capacitación - Región Sanitaria XI</title>
+  <meta name="description" content="Sitio web informativo del equipo de capacitación: Enfermería, Politécnico y Residencias.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <!-- Efectos de fondo abstracto -->
+  <div class="bg-glow"></div>
+  <div class="bg-glow-2"></div>
+
+  <!-- Navegación -->
+  <nav>
+    <div class="nav-container">
+      <a href="#" class="logo">Capacitación <span>Región Sanitaria XI</span></a>
+      <div class="nav-links">
+        <a href="#inicio">Inicio</a>
+        <a href="#areas">Áreas de Formación</a>
+        <a href="#faq">Preguntas Frecuentes</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sección Hero Principal -->
+  <section id="inicio" class="hero">
+    <div>
+      <h1>Equipo de Capacitación - Región Sanitaria XI</h1>
+      <p>Somos un equipo integrado por profesionales y estudiantes en formación, comprometidos con la excelencia académica y la calidez humana. Bajo el marco pedagógico de la Escuela de Gobierno en Salud 'Floreal Ferrara' y las políticas sanitarias de la Provincia de Buenos Aires, brindamos nuestra mejor predisposición para acompañar cada etapa del aprendizaje, garantizando que el proceso de capacitación en todas sus áreas cumpla con los más altos estándares de calidad institucional.</p>
+      <a href="#areas" class="cta-button">Conoce Nuestras Áreas</a>
+    </div>
+  </section>
+
+  <!-- Sección de Áreas -->
+  <section id="areas" class="areas">
+    <h2 class="section-title">Nuestras Áreas de Capacitación</h2>
+    
+    <div class="cards-grid">
+      <!-- Tarjeta Enfermería -->
+      <div class="card enfermeria">
+        <div class="card-icon">🩺</div>
+        <h3>Enfermería</h3>
+        <p>Nuestro equipo de enfermería, compuesto por docentes expertos y alumnos en prácticas profesionalizantes, se guía por la vocación de servicio y el rigor científico. Alineados con la visión de la Escuela Floreal Ferrara, formamos recursos humanos capaces de integrarse al sistema de salud provincial con una mirada humanizada y técnica, asegurando que cada etapa de la formación en cuidados críticos y comunitarios responda fielmente a las políticas sanitarias vigentes en nuestro territorio.</p>
+        
+        <button class="toggle-btn" onclick="this.parentElement.classList.toggle('expanded')">Ver Detalles de Gestión <span class="arrow">▼</span></button>
+        <div class="card-details">
+          <div class="detail-block">
+            <h4>Carreras y Sedes</h4>
+            <ul class="carrera-list">
+              <li><strong>Tecnicatura Sup. en Enfermería</strong> / H.I.G.A. San Martín / 1er Año</li>
+              <li><strong>Especialización en Cuidados Críticos</strong> / H.Z.G.A. Ricardo Gutiérrez / 2do Año</li>
+              <li><strong>Postbásico en Neonatología</strong> / Hospital Sor María Ludovica / 1er Año</li>
+            </ul>
+          </div>
+          <div class="gestion-box">
+            <h4>Estado de Gestión Actual</h4>
+            <p>Actualmente, el equipo de gestión se encuentra trabajando en:</p>
+            <ul class="gestion-list">
+              <li><span>📑</span> Definición y asignación de plantas docentes.</li>
+              <li><span>👥</span> Conformación y validación de listados de alumnos.</li>
+              <li><span>🏫</span> Preparación de entornos de aprendizaje para el inicio de cursadas.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tarjeta Politécnico -->
+      <div class="card politecnico">
+        <div class="card-icon">⚙️</div>
+        <h3>Politécnico</h3>
+        <p>En el área técnica, profesionales especializados y estudiantes avanzados trabajan en conjunto para dominar las herramientas y saberes específicos que el sistema de salud demanda. Bajo el respaldo institucional de la Escuela de Gobierno, promovemos una formación técnica de excelencia que se traduce en una mejor atención ciudadana, garantizando que todos los procesos educativos y operativos se desarrollen bajo los protocolos de gestión y seguridad de la Provincia de Buenos Aires.</p>
+
+        <button class="toggle-btn" onclick="this.parentElement.classList.toggle('expanded')">Ver Detalles de Gestión <span class="arrow">▼</span></button>
+        <div class="card-details">
+          <div class="detail-block">
+            <h4>Carreras y Sedes</h4>
+            <ul class="carrera-list">
+              <li><strong>Tec. Sup. en Radiología</strong> / H.I.G.A. Rossi / 1er Año</li>
+              <li><strong>Tec. Sup. en Laboratorio</strong> / Hospital San Juan de Dios / 2do Año</li>
+              <li><strong>Tec. Sup. en Hemoterapia</strong> / Instituto de Hemoterapia / 3er Año</li>
+            </ul>
+          </div>
+          <div class="gestion-box">
+            <h4>Estado de Gestión Actual</h4>
+            <p>Actualmente, el equipo de gestión se encuentra trabajando en:</p>
+            <ul class="gestion-list">
+              <li><span>📑</span> Definición y asignación de plantas docentes.</li>
+              <li><span>👥</span> Conformación y validación de listados de alumnos.</li>
+              <li><span>🏫</span> Preparación de entornos de aprendizaje para el inicio de cursadas.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Sección FAQ -->
+  <section id="faq" class="faq-section">
+    <h2 class="section-title">Preguntas Frecuentes</h2>
+    
+    <div class="faq-grid">
+      <!-- Columna Docentes -->
+      <div class="faq-column">
+        <h3 class="faq-col-title">Para Docentes</h3>
+        
+        <div class="faq-item">
+          <button class="faq-question" onclick="this.parentElement.classList.toggle('active')">
+            ¿Cómo es el proceso de cobro? <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>El pago se realiza mediante un proceso de expediente administrativo. Para ello, se solicita al docente diversa documentación personal y profesional. Es importante tener en cuenta que el proceso administrativo de liquidación suele demorar entre 2 y 3 meses hasta que se hace efectivo el cobro.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" onclick="this.parentElement.classList.toggle('active')">
+            ¿Cómo puedo formar parte de las plantas docentes de las tecnicaturas? <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>El ingreso a las plantas docentes se realiza exclusivamente mediante Concurso Docente. Los llamados, cronogramas y procesos se informan a través de las redes sociales del Equipo de Capacitación o de la Región Sanitaria XI.</p>
+            <p>La documentación requerida incluye:</p>
+            <ul>
+              <li>Propuesta Pedagógica de la materia a concursar (existe un modelo disponible en la web de la Escuela de Gobierno en Salud Floreal Ferrara).</li>
+              <li>Currículum Vitae (CV) actualizado con toda la documentación respaldatoria correspondiente.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Columna Alumnos -->
+      <div class="faq-column">
+        <h3 class="faq-col-title">Para Alumnos</h3>
+        
+        <div class="faq-item">
+          <button class="faq-question" onclick="this.parentElement.classList.toggle('active')">
+            ¿Cómo puedo inscribirme como alumno? <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Las inscripciones se realizan inicialmente de forma online. Las fechas de apertura, las sedes disponibles y sus respectivos horarios de cursada se publican oportunamente en nuestras redes sociales oficiales.</p>
+            <div class="gestion-box" style="margin-top: 1rem; padding: 1.2rem;">
+              <h4 style="margin-bottom: 0.75rem;">Nota importante sobre el ingreso:</h4>
+              <ul class="gestion-list">
+                <li><span>✅</span> Los egresados de centros CEBAS y los trabajadores del sistema de salud pública cuentan con ingreso directo.</li>
+                <li><span>🎲</span> Para el resto de los aspirantes, el ingreso se define mediante un sorteo de vacantes.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" onclick="this.parentElement.classList.toggle('active')">
+            ¿Cómo puedo solicitar un pase de sede en las tecnicaturas de enfermería? <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p><span style="margin-right: 8px;">🔄</span>Para solicitar un pase de sede, primero debe estar confirmada su vacante y haber iniciado efectivamente la cursada. Una vez cumplidos estos requisitos, deberá acercarse a conversar con el coordinador o la coordinadora de la carrera en su sede actual para plantear su situación. Ellos poseen la autoridad y el conocimiento necesario para guiarle formalmente a través del proceso administrativo correspondiente.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de Contacto -->
+  <section id="contacto" class="contacto-section">
+    <h2 class="section-title">Contacto Institucional</h2>
+    
+    <!-- Instagram Destacado -->
+    <div class="ig-banner">
+      <p>Canal principal para novedades de concursos e inscripciones</p>
+      <a href="https://www.instagram.com/regionsanitaria11/" target="_blank" rel="noopener noreferrer" class="ig-btn">
+        <span>📸</span> Seguinos en Instagram: Región Sanitaria XI
+      </a>
+    </div>
+
+    <!-- Canales de Correo -->
+    <div class="contact-grid">
+      <!-- Enfermería -->
+      <div class="contact-card">
+        <h3><span class="contact-icon">🩺</span> Área de Enfermería</h3>
+        <ul class="email-list">
+          <li>
+            <strong>Consultas Generales</strong>
+            <a href="mailto:equipoenfermeriars11@gmail.com">equipoenfermeriars11@gmail.com</a>
+          </li>
+          <li>
+            <strong>Trámites de Pases</strong>
+            <a href="mailto:pasesenfermeriars11@gmail.com">pasesenfermeriars11@gmail.com</a>
+            <span class="email-note">* Exclusivo para gestión de pases de sede</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Politécnico -->
+      <div class="contact-card">
+        <h3><span class="contact-icon">⚙️</span> Área de Politécnico</h3>
+        <ul class="email-list">
+          <li>
+            <strong>Consultas Generales</strong>
+            <a href="mailto:politecnicorsxi@gmail.com">politecnicorsxi@gmail.com</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>© 2026 Equipo de Capacitación. Todos los derechos reservados.</p>
+    <p style="margin-top: 0.5rem; font-size: 0.9rem;">Dedicados al crecimiento profesional.</p>
+  </footer>
+
+</body>
+</html>
